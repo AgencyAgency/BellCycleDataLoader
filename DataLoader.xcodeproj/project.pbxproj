@@ -28,6 +28,7 @@
 		CFBDC38D18624756006126D6 /* BellCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC38C18624756006126D6 /* BellCycle.m */; };
 		CFBDC39018624757006126D6 /* Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC38F18624757006126D6 /* Cycle.m */; };
 		CFBDC39318624757006126D6 /* Bell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC39218624757006126D6 /* Bell.m */; };
+		CFBDC39518626E3B006126D6 /* schedule_formatted.json in Resources */ = {isa = PBXBuildFile; fileRef = CFBDC39418626E3B006126D6 /* schedule_formatted.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		CFBDC38F18624757006126D6 /* Cycle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cycle.m; sourceTree = "<group>"; };
 		CFBDC39118624757006126D6 /* Bell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bell.h; sourceTree = "<group>"; };
 		CFBDC39218624757006126D6 /* Bell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bell.m; sourceTree = "<group>"; };
+		CFBDC39418626E3B006126D6 /* schedule_formatted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule_formatted.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		CFBDC34D18624546006126D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFBDC39418626E3B006126D6 /* schedule_formatted.json */,
 				CFBDC34E18624546006126D6 /* DataLoader-Info.plist */,
 				CFBDC34F18624546006126D6 /* InfoPlist.strings */,
 				CFBDC35218624546006126D6 /* main.m */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFBDC36518624546006126D6 /* Images.xcassets in Resources */,
+				CFBDC39518626E3B006126D6 /* schedule_formatted.json in Resources */,
 				CFBDC35118624546006126D6 /* InfoPlist.strings in Resources */,
 				CFBDC35A18624546006126D6 /* Main.storyboard in Resources */,
 			);
