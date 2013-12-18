@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="13B3116" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Bell" representedClassName="Bell" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bellCycles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BellCycle" inverseName="bell" inverseEntity="BellCycle" syncable="YES"/>
+    </entity>
+    <entity name="BellCycle" representedClassName="BellCycle" syncable="YES">
+        <relationship name="bell" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Bell" inverseName="bellCycles" inverseEntity="Bell" syncable="YES"/>
+        <relationship name="cycle" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cycle" inverseName="bellCycles" inverseEntity="Cycle" syncable="YES"/>
+    </entity>
+    <entity name="Cycle" representedClassName="Cycle" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bellCycles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="BellCycle" inverseName="cycle" inverseEntity="BellCycle" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cycle" positionX="567" positionY="144" width="128" height="73"/>
+        <element name="BellCycle" positionX="333" positionY="126" width="128" height="73"/>
+        <element name="Bell" positionX="81" positionY="147" width="128" height="73"/>
+    </elements>
+</model>
