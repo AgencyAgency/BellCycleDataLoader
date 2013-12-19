@@ -7,6 +7,7 @@
 //
 
 #import "AAAppDelegate.h"
+#import "AADataLoader.h"
 
 #import "AAMasterViewController.h"
 
@@ -19,6 +20,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [AADataLoader loadScheduleJSONIntoContext:self.managedObjectContext];
+    
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;

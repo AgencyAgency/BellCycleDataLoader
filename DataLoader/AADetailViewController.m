@@ -7,6 +7,7 @@
 //
 
 #import "AADetailViewController.h"
+#import "BellCycle+Info.h"
 
 @interface AADetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
@@ -17,10 +18,10 @@
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setBellCycle:(BellCycle *)bellCycle
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
+    if (_bellCycle != bellCycle) {
+        _bellCycle = bellCycle;
         
         // Update the view.
         [self configureView];
@@ -35,8 +36,8 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
+    if (self.bellCycle) {
+        self.detailDescriptionLabel.text = [self.bellCycle fullName];
     }
 }
 

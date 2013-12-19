@@ -29,6 +29,11 @@
 		CFBDC39018624757006126D6 /* Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC38F18624757006126D6 /* Cycle.m */; };
 		CFBDC39318624757006126D6 /* Bell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC39218624757006126D6 /* Bell.m */; };
 		CFBDC39518626E3B006126D6 /* schedule_formatted.json in Resources */ = {isa = PBXBuildFile; fileRef = CFBDC39418626E3B006126D6 /* schedule_formatted.json */; };
+		CFBDC39818626F7A006126D6 /* Bell+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC39718626F7A006126D6 /* Bell+Create.m */; };
+		CFBDC39B18627058006126D6 /* Cycle+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC39A18627058006126D6 /* Cycle+Create.m */; };
+		CFBDC39E1862708F006126D6 /* BellCycle+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC39D1862708F006126D6 /* BellCycle+Create.m */; };
+		CFBDC3A11862721C006126D6 /* AADataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC3A01862721C006126D6 /* AADataLoader.m */; };
+		CFBDC3A5186275CA006126D6 /* BellCycle+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBDC3A4186275CA006126D6 /* BellCycle+Info.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +77,16 @@
 		CFBDC39118624757006126D6 /* Bell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bell.h; sourceTree = "<group>"; };
 		CFBDC39218624757006126D6 /* Bell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bell.m; sourceTree = "<group>"; };
 		CFBDC39418626E3B006126D6 /* schedule_formatted.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schedule_formatted.json; sourceTree = "<group>"; };
+		CFBDC39618626F7A006126D6 /* Bell+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bell+Create.h"; sourceTree = "<group>"; };
+		CFBDC39718626F7A006126D6 /* Bell+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bell+Create.m"; sourceTree = "<group>"; };
+		CFBDC39918627058006126D6 /* Cycle+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cycle+Create.h"; sourceTree = "<group>"; };
+		CFBDC39A18627058006126D6 /* Cycle+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cycle+Create.m"; sourceTree = "<group>"; };
+		CFBDC39C1862708F006126D6 /* BellCycle+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BellCycle+Create.h"; sourceTree = "<group>"; };
+		CFBDC39D1862708F006126D6 /* BellCycle+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BellCycle+Create.m"; sourceTree = "<group>"; };
+		CFBDC39F1862721C006126D6 /* AADataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AADataLoader.h; sourceTree = "<group>"; };
+		CFBDC3A01862721C006126D6 /* AADataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AADataLoader.m; sourceTree = "<group>"; };
+		CFBDC3A3186275CA006126D6 /* BellCycle+Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BellCycle+Info.h"; sourceTree = "<group>"; };
+		CFBDC3A4186275CA006126D6 /* BellCycle+Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BellCycle+Info.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +149,7 @@
 		CFBDC34C18624546006126D6 /* DataLoader */ = {
 			isa = PBXGroup;
 			children = (
+				CFBDC3A21862721F006126D6 /* DataModel */,
 				CFBDC35518624546006126D6 /* AAAppDelegate.h */,
 				CFBDC35618624546006126D6 /* AAAppDelegate.m */,
 				CFBDC35818624546006126D6 /* Main.storyboard */,
@@ -142,13 +158,8 @@
 				CFBDC36118624546006126D6 /* AADetailViewController.h */,
 				CFBDC36218624546006126D6 /* AADetailViewController.m */,
 				CFBDC36418624546006126D6 /* Images.xcassets */,
-				CFBDC35B18624546006126D6 /* DataLoader.xcdatamodeld */,
-				CFBDC39118624757006126D6 /* Bell.h */,
-				CFBDC39218624757006126D6 /* Bell.m */,
-				CFBDC38E18624757006126D6 /* Cycle.h */,
-				CFBDC38F18624757006126D6 /* Cycle.m */,
-				CFBDC38B18624756006126D6 /* BellCycle.h */,
-				CFBDC38C18624756006126D6 /* BellCycle.m */,
+				CFBDC39F1862721C006126D6 /* AADataLoader.h */,
+				CFBDC3A01862721C006126D6 /* AADataLoader.m */,
 				CFBDC34D18624546006126D6 /* Supporting Files */,
 			);
 			path = DataLoader;
@@ -182,6 +193,28 @@
 				CFBDC37518624546006126D6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFBDC3A21862721F006126D6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CFBDC39118624757006126D6 /* Bell.h */,
+				CFBDC39218624757006126D6 /* Bell.m */,
+				CFBDC39618626F7A006126D6 /* Bell+Create.h */,
+				CFBDC39718626F7A006126D6 /* Bell+Create.m */,
+				CFBDC38E18624757006126D6 /* Cycle.h */,
+				CFBDC38F18624757006126D6 /* Cycle.m */,
+				CFBDC39918627058006126D6 /* Cycle+Create.h */,
+				CFBDC39A18627058006126D6 /* Cycle+Create.m */,
+				CFBDC38B18624756006126D6 /* BellCycle.h */,
+				CFBDC38C18624756006126D6 /* BellCycle.m */,
+				CFBDC39C1862708F006126D6 /* BellCycle+Create.h */,
+				CFBDC39D1862708F006126D6 /* BellCycle+Create.m */,
+				CFBDC3A3186275CA006126D6 /* BellCycle+Info.h */,
+				CFBDC3A4186275CA006126D6 /* BellCycle+Info.m */,
+				CFBDC35B18624546006126D6 /* DataLoader.xcdatamodeld */,
+			);
+			name = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,14 +316,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBDC3A11862721C006126D6 /* AADataLoader.m in Sources */,
 				CFBDC39318624757006126D6 /* Bell.m in Sources */,
 				CFBDC36018624546006126D6 /* AAMasterViewController.m in Sources */,
+				CFBDC39B18627058006126D6 /* Cycle+Create.m in Sources */,
 				CFBDC39018624757006126D6 /* Cycle.m in Sources */,
+				CFBDC3A5186275CA006126D6 /* BellCycle+Info.m in Sources */,
 				CFBDC35718624546006126D6 /* AAAppDelegate.m in Sources */,
+				CFBDC39E1862708F006126D6 /* BellCycle+Create.m in Sources */,
 				CFBDC35318624546006126D6 /* main.m in Sources */,
 				CFBDC38D18624756006126D6 /* BellCycle.m in Sources */,
 				CFBDC35D18624546006126D6 /* DataLoader.xcdatamodeld in Sources */,
 				CFBDC36318624546006126D6 /* AADetailViewController.m in Sources */,
+				CFBDC39818626F7A006126D6 /* Bell+Create.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
